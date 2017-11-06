@@ -1,0 +1,83 @@
+{
+  "name": "sea-urchin",
+  "version": "0.0.0-development",
+  "description": "UI Components for React",
+  "main": "dist/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "npm-run-all --parallel build:*",
+    "build:main": "babel --copy-files --out-dir dist --ignore *.spec.js src",
+    "build:umd": "webpack --output-filename sea-urchin.js",
+    "build:umd.min": "webpack --output-filename sea-urchin.min.js -p",
+    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "commit": "git-cz",
+    "cover": "nyc npm t",
+    "prebuild": "rimraf dist",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "tdd": "npm test -- --watch",
+    "test": "jest",
+    "test:single": "nyc cover -x *.spec.js _mocha -- -R spec ./src",
+    "watch:test": "npm t -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minnam/sea-urchin"
+  },
+  "keywords": [],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Min Nam <hi@minnam.io> (http://minnam.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minnam/sea-urchin/issues"
+  },
+  "homepage": "https://github.com/minnam/sea-urchin",
+  "devDependencies": {
+    "babel-preset-env": "1.6.1",
+    "chai": "latest",
+    "codecov.io": "latest",
+    "commitizen": "latest",
+    "cz-conventional-changelog": "latest",
+    "enzyme": "3.1.0",
+    "eslint": "latest",
+    "eslint-config-airbnb": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-react": "latest",
+    "husky": "latest",
+    "istanbul": "latest",
+    "jest": "21.2.1",
+    "jsdom": "latest",
+    "json-loader": "latest",
+    "mocha": "latest",
+    "npm-run-all": "latest",
+    "nyc": "latest",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.0.0",
+    "rimraf": "latest",
+    "semantic-release": "latest",
+    "sinon": "latest",
+    "webpack": "latest"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run cover && npm run check-coverage"
+    }
+  },
+  "dependencies": {
+    "next": "4.1.4",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-style-proptype": "3.1.0",
+    "typestyle": "1.5.1"
+  }
+}
