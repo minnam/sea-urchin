@@ -1,2 +1,2 @@
 # sea-urchin
-UI Framework for React
+UI Components for React
