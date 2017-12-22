@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import stylePropType from 'react-style-proptype';
 import {style, classes} from 'typestyle';
 
 import {getTheme} from '../theme-util';
@@ -15,6 +14,7 @@ const STYLES = {
     option: style({
         border: 'none',
         bottom: 0,
+        left: 0,
         boxSizing: 'border-box',
         color: 'rgb(60,60,60)',
         cursor: 'pointer',
@@ -69,6 +69,7 @@ const STYLES = {
             background: 'none',
             border: 'none',
             bottom: 0,
+            left: 0,
             boxSizing: 'border-box',
             color: 'rgb(60,60,60)',
             float: 'left',
@@ -86,16 +87,6 @@ const STYLES = {
 
     }
 }
-
-function applyVars(dictionary: {}) {
-    const el = document.body;
-    for (var name in dictionary) {
-        if (dictionary.hasOwnProperty) {
-            el.style.setProperty(name, dictionary[name]);
-        }
-    }
-}
-
 
 class Select extends Component {
 

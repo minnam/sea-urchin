@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Theme from '../theme-provider';
 import PropTypes from 'prop-types';
-import stylePropType from 'react-style-proptype';
 import {InputBase, SwitchBase} from '../base';
 import {getTheme} from '../theme-util';
 
@@ -26,13 +25,7 @@ class Checkbox extends Component {
         /** An offset of highlight border in pixels */
         highlightOffset: PropTypes.number,
         /** A height of component that will affect both height and line-height in pixels */
-        height: PropTypes.number,
-        /** Style for the most outer component */
-        style: stylePropType,
-        /** Style for label */
-        labelStyle: stylePropType,
-        /** Style for primary icon */
-        primaryIconStyle: stylePropType
+        height: PropTypes.number,        
     };
 
     static defaultProps = {

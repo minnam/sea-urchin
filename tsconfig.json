@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {      
+      "target": "es6",
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "jsx": "react",      
+      "declaration": true,
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "compile"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "my-tsconfig.json"
+      }
+    }
+  }
+}

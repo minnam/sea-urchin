@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {style, classes} from 'typestyle';
-import CLASSES from './input-base-vertical-classes';
+import CLASSES from './input-base-classes';
 import HoverEffect from '../hover-effect'
 
 const _CLASSES = {
@@ -135,7 +135,7 @@ class SwitchBase extends Component {
 
         return (
             <div
-                className = {classes(CLASSES.parent, _CLASSES.base, parentClass)}
+                className = {classes(CLASSES.vertical.parent, _CLASSES.base, parentClass)}
                 onClick = {this.handleClick}
                 onMouseMove = {this.handleMouseMove}
                 onMouseOver = {this.handleMouseOver}

@@ -191,8 +191,6 @@ class Dialog extends Component {
             referenceClientRect = {}
         } = this.state;
 
-        console.log(!_.isNaN(referenceClientRect.top + referenceClientRect.height + 1  + dialogOffset.top) ? referenceClientRect.top + referenceClientRect.height + 1  + dialogOffset.top : 0)
-
         return (
             <div
                 ref = {(dialog) => {

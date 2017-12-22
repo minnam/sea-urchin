@@ -1,0 +1,15 @@
+webpackHotUpdate(5,{
+
+/***/ 436:
+/***/ (function(module, exports) {
+
+"use strict";
+throw new Error("Module build failed: SyntaxError: Unexpected token (65:94)\n\n\u001b[0m \u001b[90m 63 | \u001b[39m    \u001b[33mInputField\u001b[39m\u001b[33m.\u001b[39mprototype\u001b[33m.\u001b[39mrender \u001b[33m=\u001b[39m \u001b[36mfunction\u001b[39m () {\n \u001b[90m 64 | \u001b[39m        \u001b[36mvar\u001b[39m _this \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 65 | \u001b[39m        \u001b[36mvar\u001b[39m _a \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mprops\u001b[33m,\u001b[39m hint \u001b[33m=\u001b[39m _a\u001b[33m.\u001b[39mhint\u001b[33m,\u001b[39m _b \u001b[33m=\u001b[39m _a\u001b[33m.\u001b[39mvalue\u001b[33m,\u001b[39m value \u001b[33m=\u001b[39m _b \u001b[33m===\u001b[39m \u001b[36mvoid\u001b[39m \u001b[35m0\u001b[39m \u001b[33m?\u001b[39m \u001b[32m''\u001b[39m \u001b[33m:\u001b[39m _b\u001b[33m,\u001b[39m  \u001b[33m=\u001b[39m _a[\u001b[32m\"default\"\u001b[39m]\u001b[33m;\u001b[39m\n \u001b[90m    | \u001b[39m                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 66 | \u001b[39m        \u001b[36mvar\u001b[39m focused \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mstate\u001b[33m.\u001b[39mfocused\u001b[33m;\u001b[39m\n \u001b[90m 67 | \u001b[39m        \u001b[36mreturn\u001b[39m (\u001b[33mReact\u001b[39m\u001b[33m.\u001b[39mcreateElement(_1\u001b[33m.\u001b[39m\u001b[33mInputBase\u001b[39m\u001b[33m,\u001b[39m __assign({ focus\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mfocus\u001b[33m,\u001b[39m focused\u001b[33m:\u001b[39m focused\u001b[33m,\u001b[39m value\u001b[33m:\u001b[39m value\u001b[33m,\u001b[39m onClick\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mhandleClick\u001b[33m,\u001b[39m hintClass\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtheme\u001b[33m.\u001b[39mhint\u001b[33m,\u001b[39m labelClass\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtheme\u001b[33m.\u001b[39mlabel\u001b[33m,\u001b[39m parentClass\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtheme\u001b[33m.\u001b[39mstyle\u001b[33m,\u001b[39m primaryIconClass\u001b[33m:\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39mtheme\u001b[33m.\u001b[39mprimaryIcon\u001b[33m,\u001b[39m postLabel\u001b[33m:\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39mcreateElement(\u001b[32m\"div\"\u001b[39m\u001b[33m,\u001b[39m { style\u001b[33m:\u001b[39m {\n \u001b[90m 68 | \u001b[39m                    fontWeight\u001b[33m:\u001b[39m \u001b[35m700\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n");
+
+/***/ }),
+
+/***/ 437:
+false
+
+})
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiNS5lYTM3NzZlYWRkMTA4ZTI4NjVjOC5ob3QtdXBkYXRlLmpzIiwic291cmNlcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0EiLCJzb3VyY2VSb290IjoiIn0=
